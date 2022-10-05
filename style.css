@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0d192c;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    width: 328px;
+    border-radius: 20px;
+    background-color: #15263f;
+}
+
+
+.img_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+
+}
+.img_div .iconbox {
+    height: 286px;
+    width: 286px;
+    display: none;
+    position: absolute;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.img_div .iconbox img[class="icon"] {
+    width: 48px;
+    height: 48px;
+}
+
+.img_div:hover .iconbox {
+    display: block;
+}
+.img_div:hover img[class="icon"] {
+    position: absolute;
+    top: calc(50% - 21px); 
+    left: calc(50% - 21px); 
+    z-index: 1;
+}
+.img_div:hover {
+    background-color: cyan;
+}
+
+.img_div:hover img[class="equilibrium"] {
+    opacity: 0.6;
+}
+
+
+
+.card img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+h2 {
+    margin-bottom: 16px;
+    color: white;
+    margin-top: 24px;
+    text-align: left;
+    line-height: 28px;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Outfit', sans-serif;
+    transition: 0.1s;
+}
+
+h2:hover {
+    color: cyan;;
+}
+
+p {
+    margin-bottom: 24px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 17.86px;
+    text-align: left;
+    letter-spacing: 0.19px;
+    color: #8BACD9;
+    line-height: 26px;
+}
+.eth_img_span {
+    display: flex;
+}
+.eth_img {
+    width: 11px;
+    height: 12.43px;
+}
+.eth_txt {
+    color: #00FFF8;
+    margin-left: 5px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20.16px;
+}
+
+
+.clock_img_span {
+    display: flex;
+    align-items: center;
+}
+.clock_img {
+    width: 15px;
+    height: 15px;
+}
+
+.eth_clock {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #2E405A;
+    padding-bottom: 24px;
+
+}
+.clock_txt {
+    color: #8BACD9;
+    margin-left: 3px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.16px;
+
+}
+.clock_img_span {
+    display: flex;
+    align-items: center;
+}
+
+.eth_clock {
+    margin-bottom: 24px;
+}
+
+.pic_txt_name {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.pic {
+    height: 33px;
+    width: 33px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-right: 20px;
+}
+
+.name { 
+    display: block;
+    color: white;
+    line-height: 20.16px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Outfit', sans-serif;
+    margin-right: 5px; 
+    transition: 0.1s;
+
+}
+.name:hover {
+    color: cyan;
+}
+
+
+.txt {
+    color: #8BACD9;
+    margin-right: 10px;
+    line-height: 20.16px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Outfit', sans-serif;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.start, .end {
+    color: white;
+    font-size: 12px;
+    font-family: 'Outfit', sans-serif;
+}
+.start {
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    margin-top: -15px;
+}
+.george {
+    color: white;
+}
+.george:hover {
+    color: cyan;
+}
+.p {
+    margin-right: 5px;
+}
+
+
+
